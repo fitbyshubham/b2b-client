@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px;
+  font-size: 3rem;
+
+  div {
+    background-color: #fff;
+  }
+
+  .top_div {
+    padding: 20px;
+    box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.09);
+  }
+
+  .top_div p span {
+    color: #f6b051;
+  }
+
+  .bottom_div {
+    padding: 0px 20px 20px;
+    box-shadow: 0 6px 5px 2px rgba(0, 0, 0, 0.09);
+  }
+}
