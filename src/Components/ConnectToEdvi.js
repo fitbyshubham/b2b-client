@@ -1,6 +1,6 @@
-import { Button, Link } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+
 
 export default function ConnectToEdvi() {
  

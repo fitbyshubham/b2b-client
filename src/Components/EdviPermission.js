@@ -5,13 +5,11 @@ import {
   AccordionSummary,
   Button,
   Card,
-  CardActions,
   CardContent,
   Grid,
   Typography,
 } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import { AiTwotoneMedicineBox } from 'react-icons/ai';
 import { RiArrowLeftRightFill } from 'react-icons/ri';
 import { IoSettingsOutline } from 'react-icons/io5';
 import { MdExpandMore } from 'react-icons/md';
@@ -19,7 +17,7 @@ import { MdOutlineRequestPage } from 'react-icons/md';
 import logo from '../Assets/logo.png';
 
 export default function EdviPermission() {
-  const classes = useStyles();
+  const classes = useStyles(); 
 
   return (
     <Card className={classes.card}>
